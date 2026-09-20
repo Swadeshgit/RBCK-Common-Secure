@@ -1,0 +1,194 @@
+{
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "cancel": "रद्द करें",
+    "back": "वापस",
+    "save": "सेव करें",
+    "saving": "सेव हो रहा है...",
+    "yes": "हाँ",
+    "no": "नहीं",
+    "or": "या",
+    "noCode": "कोई कोड नहीं",
+    "noDomain": "कोई डोमेन नहीं"
+  },
+  "auth": {
+    "welcomeBack": "वापसी पर स्वागत है",
+    "loginSubtitle": "अपने खाते में लॉगिन करें",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "forgotPassword": "पासवर्ड भूल गए?",
+    "resetWithOtp": "OTP से रीसेट करें",
+    "login": "लॉगिन",
+    "loggingIn": "लॉगिन हो रहा है...",
+    "googleLoginFailed": "Google लॉगिन विफल",
+    "loginFailed": "लॉगिन विफल। कृपया पुनः प्रयास करें।",
+    "backToLogin": "लॉगिन पर वापस जाएं"
+  },
+  "forgotPassword": {
+    "title": "पासवर्ड भूल गए",
+    "subtitle": "रीसेट लिंक पाने के लिए अपना ईमेल दर्ज करें",
+    "sendResetLink": "रीसेट लिंक भेजें",
+    "sending": "भेजा जा रहा है..."
+  },
+  "forgotPasswordOtp": {
+    "title": "पासवर्ड रीसेट करें (OTP)",
+    "stepEmail": "OTP पाने के लिए अपना ईमेल दर्ज करें",
+    "stepOtp": "अपने ईमेल पर भेजा गया 6-अंकों का OTP दर्ज करें",
+    "stepPassword": "OTP सत्यापित हो गया! अपना नया पासवर्ड सेट करें",
+    "sendOtp": "OTP भेजें",
+    "sending": "भेजा जा रहा है...",
+    "otpPlaceholder": "6-अंकों का OTP दर्ज करें",
+    "verifyOtp": "OTP सत्यापित करें",
+    "verifying": "सत्यापित हो रहा है...",
+    "changeEmail": "ईमेल बदलें / फिर से भेजें",
+    "newPassword": "नया पासवर्ड",
+    "confirmPassword": "नए पासवर्ड की पुष्टि करें",
+    "resetPassword": "पासवर्ड रीसेट करें",
+    "resetting": "रीसेट हो रहा है..."
+  },
+  "resetPassword": {
+    "title": "पासवर्ड रीसेट करें",
+    "subtitle": "अपना नया पासवर्ड दर्ज करें",
+    "newPassword": "नया पासवर्ड",
+    "confirmPassword": "पासवर्ड की पुष्टि करें",
+    "resetPassword": "पासवर्ड रीसेट करें",
+    "resetting": "रीसेट हो रहा है...",
+    "redirecting": "लॉगिन पर भेजा जा रहा है..."
+  },
+  "setPassword": {
+    "title": "पासवर्ड सेट करें",
+    "subtitle": "एक पासवर्ड सेट करें ताकि आप बिना Google के भी लॉगिन कर सकें — यह Incognito मोड या अन्य डिवाइस पर काम आता है।",
+    "newPassword": "नया पासवर्ड",
+    "confirmPassword": "नए पासवर्ड की पुष्टि करें",
+    "setPassword": "पासवर्ड सेट करें",
+    "saving": "सेव हो रहा है..."
+  },
+  "updatePassword": {
+    "title": "पासवर्ड अपडेट करें",
+    "currentPassword": "मौजूदा पासवर्ड",
+    "newPassword": "नया पासवर्ड",
+    "confirmPassword": "नए पासवर्ड की पुष्टि करें",
+    "updatePassword": "पासवर्ड अपडेट करें",
+    "updating": "अपडेट हो रहा है...",
+    "forgotCurrent": "अपना मौजूदा पासवर्ड भूल गए? ईमेल पर रीसेट लिंक भेजें",
+    "sending": "भेजा जा रहा है..."
+  },
+  "dashboard": {
+    "accountOverview": "खाता अवलोकन",
+    "name": "नाम",
+    "email": "ईमेल",
+    "userType": "उपयोगकर्ता प्रकार",
+    "role": "भूमिका",
+    "permissionSummary": "अनुमति सारांश",
+    "loadingPermissions": "अनुमतियां लोड हो रही हैं...",
+    "fullAccess": "पूर्ण अधिकार (सुपर एडमिन)",
+    "noPermissions": "अभी तक कोई अनुमति निर्धारित नहीं है।",
+    "scopes": "स्कोप",
+    "noActions": "कोई कार्रवाई नहीं"
+  },
+  "unauthorized": {
+    "title": "पहुंच अस्वीकृत",
+    "message": "इस पेज को देखने की आपको अनुमति नहीं है।",
+    "backToDashboard": "डैशबोर्ड पर वापस जाएं"
+  },
+  "organizations": {
+    "title": "संगठन",
+    "newOrganization": "+ नया संगठन",
+    "orgName": "संगठन का नाम",
+    "orgNamePlaceholder": "जैसे Acme Corp",
+    "code": "कोड (वैकल्पिक)",
+    "codePlaceholder": "जैसे ACME-01",
+    "domain": "डोमेन (वैकल्पिक)",
+    "domainPlaceholder": "जैसे acme.com",
+    "createOrganization": "संगठन बनाएं",
+    "creating": "बनाया जा रहा है...",
+    "noOrganizations": "अभी तक कोई संगठन नहीं है। ऊपर अपना पहला संगठन बनाएं।",
+    "current": "(वर्तमान)",
+    "switch": "स्विच करें",
+    "switching": "स्विच हो रहा है..."
+  },
+  "scopes": {
+    "title": "स्कोप",
+    "subtitle": "आपके संगठन में शाखाएं, गोदाम, या विभाग",
+    "newScope": "+ नया स्कोप",
+    "scopeName": "स्कोप का नाम",
+    "scopeNamePlaceholder": "जैसे दिल्ली शाखा, मुख्य गोदाम",
+    "code": "कोड (वैकल्पिक)",
+    "codePlaceholder": "जैसे DEL-01",
+    "createScope": "स्कोप बनाएं",
+    "creating": "बनाया जा रहा है...",
+    "noScopes": "अभी तक कोई स्कोप नहीं है। ऊपर अपना पहला स्कोप बनाएं।",
+    "main": "(मुख्य)"
+  },
+  "roles": {
+    "title": "भूमिकाएं",
+    "newRole": "+ नई भूमिका",
+    "editingRole": "भूमिका संपादित हो रही है",
+    "creatingRole": "नई भूमिका बनाई जा रही है",
+    "roleName": "भूमिका का नाम",
+    "roleNamePlaceholder": "जैसे मैनेजर, टीचर, सपोर्ट एजेंट",
+    "permissions": "अनुमतियां",
+    "module": "मॉड्यूल",
+    "view": "देखें",
+    "create": "बनाएं",
+    "edit": "संपादित करें",
+    "delete": "हटाएं",
+    "updateRole": "भूमिका अपडेट करें",
+    "createRole": "भूमिका बनाएं",
+    "saving": "सेव हो रहा है...",
+    "noRoles": "अभी तक कोई भूमिका नहीं है। ऊपर अपनी पहली भूमिका बनाएं।"
+  },
+  "staff": {
+    "title": "स्टाफ",
+    "newStaff": "+ नया स्टाफ",
+    "fullName": "पूरा नाम",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "phone": "फोन (वैकल्पिक)",
+    "role": "भूमिका",
+    "selectRole": "एक भूमिका चुनें",
+    "scopesBranches": "स्कोप (शाखाएं)",
+    "createStaff": "स्टाफ बनाएं",
+    "creating": "बनाया जा रहा है...",
+    "noStaff": "अभी तक कोई स्टाफ नहीं है। ऊपर अपना पहला स्टाफ बनाएं।",
+    "active": "सक्रिय",
+    "inactive": "निष्क्रिय",
+    "noRole": "कोई भूमिका नहीं",
+    "managePermission": "अनुमति प्रबंधित करें",
+    "deactivate": "निष्क्रिय करें",
+    "activate": "सक्रिय करें"
+  },
+  "assignPermission": {
+    "title": "अनुमतियां प्रबंधित करें",
+    "subtitle": "तय करें कि यह उपयोगकर्ता क्या एक्सेस कर सकता है और क्या कर सकता है",
+    "backToStaff": "स्टाफ पर वापस जाएं",
+    "whichScopes": "वे किन शाखाओं/स्कोप तक पहुंच सकते हैं?",
+    "noScopeWarning": "कोई स्कोप चयनित नहीं है — अनुमतियां कहीं लागू नहीं हो सकतीं।",
+    "whatCanTheyDo": "वे प्रत्येक मॉड्यूल में क्या कर सकते हैं?",
+    "savePermissions": "अनुमतियां सेव करें",
+    "saving": "सेव हो रहा है..."
+  },
+  "header": {
+    "dashboardTitle": "RBAC डैशबोर्ड",
+    "updatePassword": "पासवर्ड अपडेट करें",
+    "setPassword": "पासवर्ड सेट करें",
+    "logout": "लॉगआउट"
+  },
+  "sidebar": {
+    "dashboard": "डैशबोर्ड",
+    "organizations": "संगठन",
+    "scopes": "स्कोप",
+    "roles": "भूमिकाएं",
+    "staff": "स्टाफ"
+  },
+  "language": {
+    "label": "भाषा",
+    "en": "English",
+    "hi": "हिंदी",
+    "ur": "اردو"
+  },
+  "theme": {
+    "light": "लाइट",
+    "dark": "डार्क"
+  }
+}

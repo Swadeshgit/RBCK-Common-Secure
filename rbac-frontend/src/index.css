@@ -1,0 +1,104 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Nastaliq+Urdu:wght@500;700&display=swap");
+
+/* Class-based dark mode (ThemeContext toggles `.dark` on <html>) —
+   Tailwind v4 defaults to media-query dark mode, so this custom
+   variant switches it to class-based instead. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ===== Design tokens — Tailwind v4 CSS-first theme ===== */
+@theme {
+  --font-sans: "Manrope", system-ui, sans-serif;
+
+  --color-surface-light: #F7F8FB;
+  --color-surface: #FFFFFF;
+  --color-surface-dark: #12141C;
+  --color-surface-dark-raised: #1A1D28;
+
+  --color-ink: #171A24;
+  --color-ink-muted: #5B6072;
+  --color-ink-soft: #8A8FA3;
+  --color-ink-inverse: #F4F5F9;
+
+  --color-border: #E5E7F0;
+  --color-border-dark: #272B3A;
+
+  --color-brand-50: #F1EEFF;
+  --color-brand-100: #E4DEFF;
+  --color-brand-300: #B4A3FF;
+  --color-brand-500: #6B4EFF;
+  --color-brand-600: #5638F0;
+  --color-brand-700: #452BC4;
+  --color-brand-900: #241862;
+
+  --color-success: #1F9D6B;
+  --color-success-bg: #E7F7F0;
+  --color-success-bgDark: #0F2B22;
+
+  --color-danger: #E24C4C;
+  --color-danger-bg: #FDECEC;
+  --color-danger-bgDark: #3A1616;
+
+  --color-warning: #C77D18;
+  --color-warning-bg: #FBF0DD;
+  --color-warning-bgDark: #3A2A0E;
+
+  --shadow-card: 0 1px 2px rgba(23, 26, 36, 0.04), 0 4px 16px -4px rgba(23, 26, 36, 0.08);
+  --shadow-card-dark: 0 1px 2px rgba(0,0,0,0.3), 0 4px 20px -4px rgba(0,0,0,0.5);
+
+  --radius-xl2: 1.25rem;
+
+  --ease-out-soft: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+:root {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+html[dir="rtl"] body {
+  font-family: "Noto Nastaliq Urdu", "Manrope", sans-serif;
+}
+
+body {
+  @apply bg-surface-light text-ink font-sans antialiased;
+  @apply dark:bg-surface-dark dark:text-ink-inverse;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid #6B4EFF;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #C7CAD9;
+  border-radius: 8px;
+}
+html.dark ::-webkit-scrollbar-thumb {
+  background: #363A4A;
+}
+
+button:not(:disabled), a, [role="button"], input[type="checkbox"], .cursor-interactive {
+  cursor: pointer;
+}

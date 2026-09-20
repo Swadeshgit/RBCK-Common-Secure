@@ -1,0 +1,194 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "cancel": "Cancel",
+    "back": "Back",
+    "save": "Save",
+    "saving": "Saving...",
+    "yes": "Yes",
+    "no": "No",
+    "or": "OR",
+    "noCode": "No code",
+    "noDomain": "No domain"
+  },
+  "auth": {
+    "welcomeBack": "Welcome Back",
+    "loginSubtitle": "Login to your account",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot password?",
+    "resetWithOtp": "Reset with OTP instead",
+    "login": "Login",
+    "loggingIn": "Logging in...",
+    "googleLoginFailed": "Google login failed",
+    "loginFailed": "Login failed. Please try again.",
+    "backToLogin": "Back to Login"
+  },
+  "forgotPassword": {
+    "title": "Forgot Password",
+    "subtitle": "Enter your email to receive a reset link",
+    "sendResetLink": "Send Reset Link",
+    "sending": "Sending..."
+  },
+  "forgotPasswordOtp": {
+    "title": "Reset Password (OTP)",
+    "stepEmail": "Enter your email to receive an OTP",
+    "stepOtp": "Enter the 6-digit OTP sent to your email",
+    "stepPassword": "OTP verified! Set your new password",
+    "sendOtp": "Send OTP",
+    "sending": "Sending...",
+    "otpPlaceholder": "Enter 6-digit OTP",
+    "verifyOtp": "Verify OTP",
+    "verifying": "Verifying...",
+    "changeEmail": "Change email / Resend",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm New Password",
+    "resetPassword": "Reset Password",
+    "resetting": "Resetting..."
+  },
+  "resetPassword": {
+    "title": "Reset Password",
+    "subtitle": "Enter your new password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "resetPassword": "Reset Password",
+    "resetting": "Resetting...",
+    "redirecting": "Redirecting to login..."
+  },
+  "setPassword": {
+    "title": "Set Password",
+    "subtitle": "Set a password so you can also login without Google — useful in Incognito mode or on other devices.",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm New Password",
+    "setPassword": "Set Password",
+    "saving": "Saving..."
+  },
+  "updatePassword": {
+    "title": "Update Password",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm New Password",
+    "updatePassword": "Update Password",
+    "updating": "Updating...",
+    "forgotCurrent": "Forgot your current password? Send reset link to email",
+    "sending": "Sending..."
+  },
+  "dashboard": {
+    "accountOverview": "Account Overview",
+    "name": "Name",
+    "email": "Email",
+    "userType": "User Type",
+    "role": "Role",
+    "permissionSummary": "Permission Summary",
+    "loadingPermissions": "Loading permissions...",
+    "fullAccess": "Full Access (Super Admin)",
+    "noPermissions": "No permissions assigned yet.",
+    "scopes": "Scopes",
+    "noActions": "no actions"
+  },
+  "unauthorized": {
+    "title": "Access Denied",
+    "message": "You don't have permission to view this page.",
+    "backToDashboard": "Go back to Dashboard"
+  },
+  "organizations": {
+    "title": "Organizations",
+    "newOrganization": "+ New Organization",
+    "orgName": "Organization Name",
+    "orgNamePlaceholder": "e.g. Acme Corp",
+    "code": "Code (optional)",
+    "codePlaceholder": "e.g. ACME-01",
+    "domain": "Domain (optional)",
+    "domainPlaceholder": "e.g. acme.com",
+    "createOrganization": "Create Organization",
+    "creating": "Creating...",
+    "noOrganizations": "No organizations yet. Create your first one above.",
+    "current": "(current)",
+    "switch": "Switch",
+    "switching": "Switching..."
+  },
+  "scopes": {
+    "title": "Scopes",
+    "subtitle": "Branches, warehouses, or departments in your organization",
+    "newScope": "+ New Scope",
+    "scopeName": "Scope Name",
+    "scopeNamePlaceholder": "e.g. Delhi Branch, Main Warehouse",
+    "code": "Code (optional)",
+    "codePlaceholder": "e.g. DEL-01",
+    "createScope": "Create Scope",
+    "creating": "Creating...",
+    "noScopes": "No scopes yet. Create your first one above.",
+    "main": "(main)"
+  },
+  "roles": {
+    "title": "Roles",
+    "newRole": "+ New Role",
+    "editingRole": "Editing role",
+    "creatingRole": "Creating new role",
+    "roleName": "Role Name",
+    "roleNamePlaceholder": "e.g. Manager, Teacher, Support Agent",
+    "permissions": "Permissions",
+    "module": "Module",
+    "view": "View",
+    "create": "Create",
+    "edit": "Edit",
+    "delete": "Delete",
+    "updateRole": "Update Role",
+    "createRole": "Create Role",
+    "saving": "Saving...",
+    "noRoles": "No roles yet. Create your first one above."
+  },
+  "staff": {
+    "title": "Staff",
+    "newStaff": "+ New Staff",
+    "fullName": "Full Name",
+    "email": "Email",
+    "password": "Password",
+    "phone": "Phone (optional)",
+    "role": "Role",
+    "selectRole": "Select a role",
+    "scopesBranches": "Scopes (Branches)",
+    "createStaff": "Create Staff",
+    "creating": "Creating...",
+    "noStaff": "No staff yet. Create your first one above.",
+    "active": "Active",
+    "inactive": "Inactive",
+    "noRole": "No role",
+    "managePermission": "Manage Permission",
+    "deactivate": "Deactivate",
+    "activate": "Activate"
+  },
+  "assignPermission": {
+    "title": "Manage Permissions",
+    "subtitle": "Set what this user can access and do",
+    "backToStaff": "Back to Staff",
+    "whichScopes": "Which branches/scopes can they access?",
+    "noScopeWarning": "No scope selected — permissions may not apply anywhere.",
+    "whatCanTheyDo": "What can they do in each module?",
+    "savePermissions": "Save Permissions",
+    "saving": "Saving..."
+  },
+  "header": {
+    "dashboardTitle": "RBAC Dashboard",
+    "updatePassword": "Update Password",
+    "setPassword": "Set Password",
+    "logout": "Logout"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "organizations": "Organizations",
+    "scopes": "Scopes",
+    "roles": "Roles",
+    "staff": "Staff"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "hi": "हिंदी",
+    "ur": "اردو"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark"
+  }
+}
